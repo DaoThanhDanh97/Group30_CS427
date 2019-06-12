@@ -16,6 +16,9 @@ public class Character : MonoBehaviour
     public GameObject ground;
     int groundID;
     private bool FacingRight = true;
+    int combo = 0;
+    private float lastClickedTime = 0;
+    public float maxComboDelay = 1;
     public void Awake()
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
@@ -32,7 +35,10 @@ public class Character : MonoBehaviour
         {
             GetInput();
             Capvelocity();
-            
+            if(Input.GetButtonDown("Fire2") == true)
+            {
+                animator.SetTrigger("Attack");
+            }
         }
         else
         {
@@ -59,6 +65,7 @@ public class Character : MonoBehaviour
             yForce = 200;
             animator.SetBool("On Ground", false);
         }
+
         Vector2 force = new Vector2(xForce, yForce);
         playerRigidbody.AddForce(force, ForceMode2D.Impulse);
         if (playerRigidbody.velocity.x > 0 && FacingRight == false)
@@ -101,7 +108,6 @@ public class Character : MonoBehaviour
     {
         // Switch the way the player is labelled as facing.
         FacingRight = !FacingRight;
-
         // Multiply the player's x local scale by -1.
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;

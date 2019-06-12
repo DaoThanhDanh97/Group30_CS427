@@ -12,7 +12,7 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnimatorTransitionInspector
+    - UnityEditor.Graphs.AnimationStateMachine.AnimatorStateTransitionInspector
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
@@ -20,7 +20,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
   sceneClasses:
     Assets/Group30-A03.unity:
     - Class: 1
@@ -38,6 +37,8 @@ ScriptsOnlyBuild:
     - Class: 50
       Script: {instanceID: 0}
     - Class: 61
+      Script: {instanceID: 0}
+    - Class: 62
       Script: {instanceID: 0}
     - Class: 70
       Script: {instanceID: 0}
@@ -300,7 +301,7 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: f27227bef75138934158e9537d12d5dd
+      Hash: 5cde1c92835f8747e1db8ff55ddfb78a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Character
@@ -480,7 +481,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: cf4eb641a95ab4894573cf91c03f312c
+      Hash: 0b025a0929bcf795c08861cb5c585e4e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Cameracontroller
@@ -517,4 +518,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Group30-A03.unity
-  playerPath: C:/Users/Yuri/Group30_A03execute/Group30-A01.exe
+  playerPath: C:/Users/Yuri/Desktop/Group30-A03/Windows Executable/Group30-A01.exe

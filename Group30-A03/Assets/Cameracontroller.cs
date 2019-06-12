@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Cameracontroller : MonoBehaviour
 {
-    public Vector3 myPos;
-    public Transform mychar;
+    [SerializeField]
+    private Transform mychar;
 
     public void Update()
     {
-        float newx = mychar.position.x + myPos.x;
-        transform.position.Set(newx, myPos.y, myPos.z);
+        transform.position = new Vector3(Mathf.Clamp(mychar.position.x, -6.15f, 6.15f), 0, -10);
     }
 }

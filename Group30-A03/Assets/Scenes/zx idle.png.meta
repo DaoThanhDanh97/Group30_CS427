@@ -128,8 +128,8 @@ TextureImporter:
       name: zx idle_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 4
+        x: 10
+        y: 1
         width: 35
         height: 39
       alignment: 7
@@ -139,7 +139,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e40109afa835ac47a06f3a7b065918d
+      spriteID: 6b2be73b529dbdc428aebc7857ad45b4
       internalID: -6134799902106294716
       vertices: []
       indices: 
@@ -149,8 +149,8 @@ TextureImporter:
       name: zx idle_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 4
+        x: 47
+        y: 1
         width: 36
         height: 40
       alignment: 7
@@ -160,7 +160,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04aeacf7f29de7f459ca707b5d9934ea
+      spriteID: b5e80322ab33e8b4cb205f30e7cad91d
       internalID: 8421945102499621182
       vertices: []
       indices: 
@@ -170,8 +170,8 @@ TextureImporter:
       name: zx idle_2
       rect:
         serializedVersion: 2
-        x: 80
-        y: 4
+        x: 85
+        y: 1
         width: 36
         height: 40
       alignment: 7
@@ -181,7 +181,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85803c10670ae54448884d08c0fc5f85
+      spriteID: 717c1e5c1a8d08d45ad2b0e601f05741
       internalID: 2866316097123089083
       vertices: []
       indices: 
@@ -191,8 +191,8 @@ TextureImporter:
       name: zx idle_3
       rect:
         serializedVersion: 2
-        x: 118
-        y: 4
+        x: 123
+        y: 1
         width: 36
         height: 41
       alignment: 7
@@ -202,7 +202,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7022607d5887d844fbe2f5c65db02ac9
+      spriteID: 115e1eb963129c247aa2a14dad06e703
       internalID: 2658788342795688355
       vertices: []
       indices: 
@@ -212,8 +212,8 @@ TextureImporter:
       name: zx idle_4
       rect:
         serializedVersion: 2
-        x: 156
-        y: 4
+        x: 161
+        y: 1
         width: 36
         height: 41
       alignment: 7
@@ -223,7 +223,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2066479b89083a140932936c05574039
+      spriteID: a3ce63bdb28a92d4fa14efc6173977d5
       internalID: -8912945998604402642
       vertices: []
       indices: 
@@ -233,8 +233,8 @@ TextureImporter:
       name: zx idle_5
       rect:
         serializedVersion: 2
-        x: 194
-        y: 4
+        x: 199
+        y: 1
         width: 36
         height: 40
       alignment: 7
@@ -244,7 +244,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11917b9ac0f543a4084a82cde25c516b
+      spriteID: 0f7cd49be7d29cc40a6f29ddb281aad5
       internalID: -3416485348000011269
       vertices: []
       indices: 
@@ -254,8 +254,8 @@ TextureImporter:
       name: zx idle_6
       rect:
         serializedVersion: 2
-        x: 232
-        y: 4
+        x: 237
+        y: 1
         width: 36
         height: 40
       alignment: 7
@@ -265,7 +265,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84f77f2c8a033bf49910ff796063aac4
+      spriteID: df3e10697e2eb814fa60fca65da97f6c
       internalID: -5512938880344461716
       vertices: []
       indices: 
@@ -275,8 +275,8 @@ TextureImporter:
       name: zx idle_7
       rect:
         serializedVersion: 2
-        x: 270
-        y: 4
+        x: 275
+        y: 1
         width: 35
         height: 39
       alignment: 7
@@ -286,7 +286,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a0b6a134dd264847877f8d8e3cca251
+      spriteID: 7c9fab75521af7f4a8fd8ca4c2f1dddc
       internalID: 1646262895059649661
       vertices: []
       indices: 
@@ -296,9 +296,9 @@ TextureImporter:
       name: zx idle_8
       rect:
         serializedVersion: 2
-        x: 307
-        y: 4
-        width: 32
+        x: 312
+        y: 1
+        width: 35
         height: 39
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -307,7 +307,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38ca5376cf1fe0e45887261b42377a07
+      spriteID: 3b9f90a7293c7644a881a99d66b7e10f
       internalID: -264517843937202183
       vertices: []
       indices: 
