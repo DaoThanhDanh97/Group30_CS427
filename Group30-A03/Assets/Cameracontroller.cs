@@ -9,6 +9,7 @@ public class Cameracontroller : MonoBehaviour
 
     public void Update()
     {
-        transform.position = mychar.position + myPos;
+        float newx = mychar.position.x + myPos.x;
+        transform.position.Set(newx, myPos.y, myPos.z);
     }
 }

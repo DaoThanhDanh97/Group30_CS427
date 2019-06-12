@@ -6,6 +6,7 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     // Start is called before the first frame update
+    public Animator animator;
     private Rigidbody2D playerRigidbody;
     private Collider2D playerCollider;
     private bool onGround;
@@ -44,6 +45,7 @@ public class Character : MonoBehaviour
         float cappedXVelocity = Mathf.Min(Mathf.Abs(playerRigidbody.velocity.x), maxspeed)*Mathf.Sign(playerRigidbody.velocity.x);
         float cappedYVelocity = Mathf.Min(Mathf.Abs(playerRigidbody.velocity.y), maxspeed) * Mathf.Sign(playerRigidbody.velocity.y);
         playerRigidbody.velocity = new Vector2(cappedXVelocity, cappedYVelocity);
+        animator.SetFloat("Speed", Mathf.Abs(playerRigidbody.velocity.x));
     }
 
     public void GetInput()
@@ -55,6 +57,7 @@ public class Character : MonoBehaviour
         if (onGround == true && yInput > 0)
         {
             yForce = 200;
+            animator.SetBool("On Ground", false);
         }
         Vector2 force = new Vector2(xForce, yForce);
         playerRigidbody.AddForce(force, ForceMode2D.Impulse);
@@ -79,6 +82,8 @@ public class Character : MonoBehaviour
         if (other.gameObject.GetInstanceID() == groundID)
         {
             onGround = true;
+
+            animator.SetBool("On Ground", true);
             Debug.Log("On ground");
         }
     }
@@ -87,6 +92,8 @@ public class Character : MonoBehaviour
         if (other.gameObject.GetInstanceID() == groundID)
         {
             onGround = true;
+
+            animator.SetBool("On Ground", true);
             Debug.Log("On ground");
         }
     }
